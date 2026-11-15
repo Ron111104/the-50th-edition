@@ -7,8 +7,8 @@ export const issue = {
   date: "15 November 2026",
   number: 50,
   from: "Ronak",
-  music: "/audio/phir-se-ud-chala.mp3", // drop the mp3 into public/audio/ with this name
-  musicTitle: "Phir Se Ud Chala",
+  music: "/audio/raabta.mp3", // the song file in public/audio/
+  musicTitle: "Raabta",
 };
 
 export const cover = {
