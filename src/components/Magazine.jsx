@@ -7,7 +7,6 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { issue } from "@/data/content";
 import Cover from "./Cover";
 import Contents from "./Contents";
-import Letter from "./Letter";
 import Profile from "./Profile";
 import Portfolio from "./Portfolio";
 import Archives from "./Archives";
@@ -86,7 +85,6 @@ export default function Magazine() {
     <main className="magazine">
       <Cover onOpen={openIssue} />
       <Contents onJump={scrollTo} />
-      <Letter />
       <Profile />
       <Portfolio />
       <Archives />

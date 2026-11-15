@@ -25,7 +25,6 @@ export const cover = {
 // Order here = order in the magazine. Page numbers are generated
 // (cover is page 1, contents page 2, so the first entry is page 3).
 export const contents = [
-  { id: "letter", title: "Editor's letter", deck: "A note from the son, before anything else.", photo: "garden-trio" },
   { id: "profile", title: "Mukesh at fifty", deck: "Three things he always does.", photo: "with-mom-close" },
   { id: "portfolio", title: "The portfolio", deck: "A fund review, as he would want it.", photo: "formal-trio" },
   { id: "archives", title: "From the archives", deck: "Two prints from the family album.", photo: "archive-couple" },
@@ -111,6 +110,7 @@ export const snapped = {
   photos: [
     { photo: "party-wigs", caption: "Three men, three wigs, zero regrets.", back: "Editor's note: the magazine declined to comment." },
     { photo: "friends-group", caption: "Outnumbered, and happy about it." },
+    { photo: "garden-trio", caption: "A garden, a sunny day." },
     { photo: "selfie-four", caption: "Everyone in frame." },
   ],
 };
