@@ -1,0 +1,21 @@
+{
+  "_readme": "One entry per photo in this folder. 'focus' is the CSS object-position used when a layout crops the photo (e.g. '50% 30%' = keep the area a bit above centre). 'alt' describes the photo for screen readers. Add a new photo by dropping it in this folder, adding an entry here, then running: npm run photos",
+  "yellow-kurta":   { "focus": "50% 30%", "alt": "Dad in a yellow bandhgala and red turban, with Mom and family" },
+  "with-mom-close": { "focus": "40% 35%", "alt": "Dad and Mom, close up" },
+  "family-event":   { "focus": "60% 40%", "alt": "Dad with family at a family function" },
+  "garden-trio":    { "focus": "50% 45%", "alt": "Dad, Mom and family in a garden" },
+  "home-festive":   { "focus": "50% 35%", "alt": "Dad, Mom and family at home, dressed up" },
+  "selfie-four":    { "focus": "45% 45%", "alt": "A family selfie" },
+  "friends-group":  { "focus": "20% 35%", "alt": "Dad with a group of friends" },
+  "london-eye":     { "focus": "60% 40%", "alt": "Dad and Mom inside the London Eye, Westminster behind them" },
+  "party-wigs":     { "focus": "50% 35%", "alt": "Dad and two friends in bright party wigs" },
+  "pattaya":        { "focus": "55% 60%", "alt": "Dad and friends under the Pattaya sign at night" },
+  "the-sphere":     { "focus": "50% 55%", "alt": "Dad leaning on a giant black stone sphere" },
+  "football-mural": { "focus": "50% 60%", "alt": "Dad in front of a football mural" },
+  "family-hug":     { "focus": "45% 40%", "alt": "Dad, Mom and family, dressed for an occasion" },
+  "dinner-sizzler": { "focus": "60% 40%", "alt": "Dad at dinner with a sizzler on the table" },
+  "black-outfits":  { "focus": "55% 35%", "alt": "Dad and Mom in black outfits" },
+  "archive-couple": { "focus": "50% 40%", "alt": "An old printed photo: Dad and Mom in garlands" },
+  "archive-family": { "focus": "50% 45%", "alt": "An old printed family photo" },
+  "formal-trio":    { "focus": "35% 50%", "alt": "Dad, family and Mom in formal wear" }
+}

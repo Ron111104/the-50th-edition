@@ -1,0 +1,209 @@
+{
+  "archive-couple": {
+    "width": 750,
+    "height": 932,
+    "widths": [
+      480,
+      750
+    ],
+    "blur": "data:image/webp;base64,UklGRpYAAABXRUJQVlA4IIoAAADwAwCdASoQABQAPu1iqU2ppaOiMAgBMB2JQBdgAx9MNR4vNDW7wh7QAP7gcWPj61yJcO28t4JqpsOLhDZRpO//AlU9GvKGzt0tQbr+O4m1PVBynovWCGCDOomN+VlUMw8dMz3LbSswt03Yw1fQ07zODENn8O38jRx7/yNH7mr57uBWAOkHmAOAAAA=",
+    "focus": "50% 40%",
+    "alt": "An old printed photo: Dad and Mom in garlands"
+  },
+  "archive-family": {
+    "width": 1003,
+    "height": 1280,
+    "widths": [
+      480,
+      960,
+      1003
+    ],
+    "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADQAwCdASoQABQAPu1kqk4ppaQiMAgBMB2JYwAAW+oNV+zQySgeBAAA/uTXLWBAoxwwOtZbar7ZO8yF3ETVm1caqOWL6VOVRjiCYAAA",
+    "focus": "50% 45%",
+    "alt": "An old printed family photo"
+  },
+  "black-outfits": {
+    "width": 960,
+    "height": 1280,
+    "widths": [
+      480,
+      960
+    ],
+    "blur": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAADQAwCdASoQABUAPu1iqU2ppaOiMAgBMB2JZQCdAB2WWpZSdlRU5BgA/l7fRaz4mOLDFFTPszi13pZ//32YSaF18sHIPZCZLy2TChyvNu6CCHzOBXh+hJNZXnI+VeYhs8KbgWBQaA32Pnb5jBmf+93MFE2pfhAA",
+    "focus": "55% 35%",
+    "alt": "Dad and Mom in black outfits"
+  },
+  "dinner-sizzler": {
+    "width": 960,
+    "height": 1280,
+    "widths": [
+      480,
+      960
+    ],
+    "blur": "data:image/webp;base64,UklGRq4AAABXRUJQVlA4IKIAAABQBACdASoQABUAPu1iqU2ppaOiMAgBMB2JagCw7YyK29j1Wyy735H/0MAAAP7x3wJ6aRRNYxbLVjgblNUgYfe5yWhB0poAYHM2M8uv6DYs7p7aeH4vsBbVMwH5AwpnbRpRZnylhSOCt2soSibRYMtk+/ycfrmv79gJO9S5LpLSMIcRm1Qkpfr/huJCDxqOAqjnfbIzibcCAPKNPDnkGJdnFAA=",
+    "focus": "60% 40%",
+    "alt": "Dad at dinner with a sizzler on the table"
+  },
+  "family-event": {
+    "width": 1280,
+    "height": 850,
+    "widths": [
+      480,
+      960,
+      1280
+    ],
+    "blur": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAAAQAgCdASoQAAsAA4BaJbACdH8AEpGE//tEAP7rpXBFlEaC0YvrI7v3VzKrPJMpqaRypHM3cjFFv8y7ZfVXZL1wnZiIMtzbyaWcDMM7iV/JT6oCWdhS3C8DNsdyWjvB36qDIfTaNHshPz2/5hjTIMAA",
+    "focus": "60% 40%",
+    "alt": "Dad with family at a family function"
+  },
+  "family-hug": {
+    "width": 851,
+    "height": 1272,
+    "widths": [
+      480,
+      851
+    ],
+    "blur": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAAAwBACdASoQABgAPu1iqU2ppaOiMAgBMB2JYwC7ACLVDiiJhcy5yaa1VAAA/pmIHe/3lL42pIJsJM/k4OTD+q33ol73XCUA8bVj7qlH2KxTAt0RymPlYxmgC3XN/6UCWXcDngDBc3CG3c/GNgSfB1xdy8AAAA==",
+    "focus": "45% 40%",
+    "alt": "Dad, Mom and family, dressed for an occasion"
+  },
+  "football-mural": {
+    "width": 720,
+    "height": 1280,
+    "widths": [
+      480,
+      720
+    ],
+    "blur": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAADQAwCdASoQABwAPu1iqU2ppaOiMAgBMB2JQAAIrifmmWZUO9ojwqAA+2KDPUrBMk3JNiJansOhs0i8/8YrSbshPumWZBW+k2p2Bgqlp7zvCQCXpqwu+Gsg6iQFRxOkbhWG/Y1cVRGKuj+HfNJRnlCTXuXE/58sTlwmn3pAAAA=",
+    "focus": "50% 60%",
+    "alt": "Dad in front of a football mural"
+  },
+  "formal-trio": {
+    "width": 1152,
+    "height": 560,
+    "widths": [
+      480,
+      960,
+      1152
+    ],
+    "blur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADwAQCdASoQAAgAA4BaJZgCdADpJphPwWAA9f7v+ugkyF1oz/aqyecx3BB7L75d0JllRaE4dSnGUkdJ3YeEStB+RZ+57+ci7Ge9lyieB5AAAA==",
+    "focus": "35% 50%",
+    "alt": "Dad, family and Mom in formal wear"
+  },
+  "friends-group": {
+    "width": 1280,
+    "height": 958,
+    "widths": [
+      480,
+      960,
+      1280
+    ],
+    "blur": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAABQAgCdASoQAAwAA4BaJbACdH8AE4o4CEHB/gAA/tgft4PylYzLgbnwMLk90cpMzSUGNCCdnU+nOeXBnGtLhTMSW/PwOYHsTWANE9SN42AYvAVFIRubD7jto1HredxbuRn0TdoVNK85tu8Pi1R0WlwxSnAcCwAA",
+    "focus": "20% 35%",
+    "alt": "Dad with a group of friends"
+  },
+  "garden-trio": {
+    "width": 960,
+    "height": 1280,
+    "widths": [
+      480,
+      960
+    ],
+    "blur": "data:image/webp;base64,UklGRpAAAABXRUJQVlA4IIQAAACwAwCdASoQABUAPu1iqU2ppaOiMAgBMB2JZgAAYXb1azKb6Ts0sAD9oH0GZC6WihbxNAovNodb5EQlT1KolVsy7h+UBCrTFgOWf9xA2EgKav8n0Ct0IhFdBpeBqUK1DSy73wB4ZpYjyArbJFVk1uGzFh+R4j5yGt+D48QKl919G1I0AAA=",
+    "focus": "50% 45%",
+    "alt": "Dad, Mom and family in a garden"
+  },
+  "home-festive": {
+    "width": 960,
+    "height": 1280,
+    "widths": [
+      480,
+      960
+    ],
+    "blur": "data:image/webp;base64,UklGRrQAAABXRUJQVlA4IKgAAACwBACdASoQABUAPu1iqU2ppaOiMAgBMB2JbAB3A6wJn/mABWAAokrLuTmkkVxwAN4o2iL+PYPCgGbgq0htnhnrlgkgUuOrp5U+7x91CkzKKmpTBQoSa7nKriTGJ5WqO4bGnqrQQ4prcP8vwF7CBk6/rWPK6i7u8ieHEHhH0RHGW/nfzOIoFzMcW+ExK94gOtcvpaM+JRQ8vxy2ckPL8a32xc/m5IhgAAA=",
+    "focus": "50% 35%",
+    "alt": "Dad, Mom and family at home, dressed up"
+  },
+  "london-eye": {
+    "width": 1280,
+    "height": 720,
+    "widths": [
+      480,
+      960,
+      1280
+    ],
+    "blur": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAAAwAgCdASoQAAkAA4BaJYwC7AYvXMLJz2UIgAD+lQ55ZbAFoLmKTGUJ3rY6SMLTFpVLPJQaY82LQZ+UY8nqJVHJ43wf7Q1rAd19is7ADBVkZTy1THAoAA==",
+    "focus": "60% 40%",
+    "alt": "Dad and Mom inside the London Eye, Westminster behind them"
+  },
+  "party-wigs": {
+    "width": 1280,
+    "height": 719,
+    "widths": [
+      480,
+      960,
+      1280
+    ],
+    "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADQAQCdASoQAAkAA4BaJQBOgB9S3fd2iAD9RvaERCAPkAV9bGF+g5UBBTFdN53HL+Co4MDyovxq931gCnqKnIAz+J5XQAAA",
+    "focus": "50% 35%",
+    "alt": "Dad and two friends in bright party wigs"
+  },
+  "pattaya": {
+    "width": 1280,
+    "height": 719,
+    "widths": [
+      480,
+      960,
+      1280
+    ],
+    "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADwAQCdASoQAAkAA4BaJQBOgB6s3cX7U4AA/uYEuYoMlyaqn3i0v/Mz9DB2EUWsnwP0g+8IkLOZcza3EroKaVAn93EHCMEoAAA=",
+    "focus": "55% 60%",
+    "alt": "Dad and friends under the Pattaya sign at night"
+  },
+  "selfie-four": {
+    "width": 1280,
+    "height": 960,
+    "widths": [
+      480,
+      960,
+      1280
+    ],
+    "blur": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAAAwAgCdASoQAAwAA4BaJbAC7AD0pVcBINzoTAD+62pH+GOjM2lJXL2Zn0ec3nis/5Jy8J0jGRlP5NaqCTFXRuzNKFqYDRCw8Lerjr/LImDISuFH2ld9NEbjCvOqIbIAAAA=",
+    "focus": "45% 45%",
+    "alt": "A family selfie"
+  },
+  "the-sphere": {
+    "width": 720,
+    "height": 1280,
+    "widths": [
+      480,
+      720
+    ],
+    "blur": "data:image/webp;base64,UklGRpYAAABXRUJQVlA4IIoAAADwAwCdASoQABwAPu1iqU2ppaOiMAgBMB2JZQAARewZpVkbcf+26cosAMkw5bOCSYh63HsNk8jbK6PkoTvz3nVOeKwlg14Q3Y3WmlV64XMoJbc892jKDjScZURI7aBwXSjsot/COPS8ckKlqEd+4/8rSxQFZbOo6ZnEEKr4oBLn+3qvtf0H0YjAAAA=",
+    "focus": "50% 55%",
+    "alt": "Dad leaning on a giant black stone sphere"
+  },
+  "with-mom-close": {
+    "width": 750,
+    "height": 621,
+    "widths": [
+      480,
+      750
+    ],
+    "blur": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAACQAgCdASoQAA0AA4BaJagCdAYuH22+X9pzhLMCAAD+sBEZ4d8WsmGrT3BR9Xl7CX6KGxqVKHjoK4iyeHdCVbnFeOlSnyQ6425YVi5A3GKMX8yQFBMFF+ASk7FVIiL2qQRGZoAA",
+    "focus": "40% 35%",
+    "alt": "Dad and Mom, close up"
+  },
+  "yellow-kurta": {
+    "width": 1280,
+    "height": 960,
+    "widths": [
+      480,
+      960,
+      1280
+    ],
+    "blur": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAABQAgCdASoQAAwAA4BaJbACdAYtpvvPitAXDAAA/vK5gPhiOCz0IcbXJvyq0p3elW4CLkt+4fnE/mmEpGIvn7+qfhn/IWtOTmHHqzN0nBNdxE7AvHJvmo8WoskogAAA",
+    "focus": "50% 30%",
+    "alt": "Dad in a yellow bandhgala and red turban, with Mom and family"
+  }
+}
