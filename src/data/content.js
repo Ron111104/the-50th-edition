@@ -32,7 +32,7 @@ export const contents = [
   { id: "profile", title: "Mukesh at fifty", deck: "Three things he always does.", photo: "with-mom-close" },
   { id: "portfolio", title: "The portfolio", deck: "A fund review, as he would want it.", photo: "formal-trio" },
   { id: "archives", title: "From the archives", deck: "Two prints from the family album.", photo: "archive-couple" },
-  { id: "family", title: "The family", deck: "Everyone he looks after, in two photographs.", photo: "family-three-generations" },
+  { id: "family", title: "The family", deck: "Everyone he looks after, in three photographs.", photo: "family-three-generations" },
   { id: "style", title: "Style file", deck: "Turbans, bandhgalas and the yellow that started it.", photo: "home-festive" },
   { id: "travel", title: "Travel desk", deck: "From the London Eye to Pattaya.", photo: "london-eye" },
   { id: "snapped", title: "Seen and snapped", deck: "The society pages. Wigs included.", photo: "party-wigs" },
@@ -92,10 +92,11 @@ export const archives = {
 };
 
 export const family = {
-  standfirst: "Everyone he looks after, in two photographs.",
+  standfirst: "Everyone he looks after, in three photographs.",
   photos: [
     { photo: "family-three-generations", caption: "Three generations, one frame." },
     { photo: "family-full-house", caption: "The full house." },
+    { photo: "family-home", caption: "Home, full of family." },
   ],
 };
 

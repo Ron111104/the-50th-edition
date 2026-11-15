@@ -3,7 +3,7 @@ import Photo from "./Photo";
 import { family } from "@/data/content";
 
 export default function Family() {
-  const [lead, second] = family.photos;
+  const [lead, ...rest] = family.photos;
   return (
     <Page id="family" title="The family">
       <div className="family">
@@ -15,10 +15,12 @@ export default function Family() {
           <Photo name={lead.photo} sizes="(max-width: 760px) 100vw, 90vw" />
           <figcaption>{lead.caption}</figcaption>
         </figure>
-        <figure className="family-second">
-          <Photo name={second.photo} sizes="(max-width: 760px) 100vw, 60vw" />
-          <figcaption>{second.caption}</figcaption>
-        </figure>
+        {rest.map((p) => (
+          <figure key={p.photo} className="family-more">
+            <Photo name={p.photo} sizes="(max-width: 760px) 100vw, 45vw" />
+            <figcaption>{p.caption}</figcaption>
+          </figure>
+        ))}
       </div>
     </Page>
   );

@@ -554,10 +554,10 @@ figcaption {
 }
 .family-head { grid-column: 1 / -1; display: grid; gap: 1rem; }
 .family-lead { grid-column: 1 / -1; }
-.family-second { grid-column: 3 / 11; }
+.family-more { grid-column: span 6; align-self: start; }
 .family figcaption { font-family: var(--serif); font-style: italic; font-size: 1.15rem; color: var(--ink); }
 @media (max-width: 760px) {
-  .family-second { grid-column: 1 / -1; }
+  .family-more { grid-column: 1 / -1; }
 }
 
 /* ---------- Style file ---------- */

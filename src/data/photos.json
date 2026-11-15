@@ -68,6 +68,18 @@
     "focus": "50% 55%",
     "alt": "A big family group photo in a restaurant lobby"
   },
+  "family-home": {
+    "width": 1280,
+    "height": 960,
+    "widths": [
+      480,
+      960,
+      1280
+    ],
+    "blur": "data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAABQAgCdASoQAAwAA4BaJbACdAYwddYIdnNsCgAA/trWNDXuZ0Bi0NaKgM2Ajo7XG4LADMtTQT/yyo92QfsxXPa8eDmCJLR/C1f9qbfzl6Wd6REyWgCln2v8E3Y8IqdTtkG3mirKJ711IAAA",
+    "focus": "50% 50%",
+    "alt": "A large family gathering at home, everyone dressed up"
+  },
   "family-hug": {
     "width": 851,
     "height": 1272,

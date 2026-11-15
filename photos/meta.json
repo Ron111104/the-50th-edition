@@ -87,5 +87,9 @@
   "orange-safa": {
     "focus": "50% 30%",
     "alt": "Dad in a yellow bandi and orange safa, seated with family"
+  },
+  "family-home": {
+    "focus": "50% 50%",
+    "alt": "A large family gathering at home, everyone dressed up"
   }
 }
