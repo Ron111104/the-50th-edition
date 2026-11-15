@@ -10,6 +10,7 @@ import Contents from "./Contents";
 import Profile from "./Profile";
 import Portfolio from "./Portfolio";
 import Archives from "./Archives";
+import Family from "./Family";
 import StyleFile from "./StyleFile";
 import Travel from "./Travel";
 import Snapped from "./Snapped";
@@ -88,6 +89,7 @@ export default function Magazine() {
       <Profile />
       <Portfolio />
       <Archives />
+      <Family />
       <StyleFile />
       <Travel />
       <Snapped />

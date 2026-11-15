@@ -15,6 +15,7 @@ const SPOTS = [
   { left: 60, top: 0, rotate: 3 },
   { left: 34, top: 44, rotate: -2 },
   { left: 66, top: 52, rotate: 5 },
+  { left: 2, top: 64, rotate: 3 },
 ];
 
 export default function Snapped() {

@@ -56,6 +56,18 @@
     "focus": "60% 40%",
     "alt": "Dad with family at a family function"
   },
+  "family-full-house": {
+    "width": 1104,
+    "height": 1100,
+    "widths": [
+      480,
+      960,
+      1104
+    ],
+    "blur": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAABwAgCdASoQABAAA4BaJbACdAdwLfwpklwmGFe4AP4I3f8i8PdiDFq+UFkhQKsaZBsW+5R/q+sCwiG6tZ4lXR9rp5hrxJs4Cz+2VUIfvIO/iphW2GtFrwvRNNDFm2w4hKGbLNZyONY4kv16pi7PBLnZJLVjiOiehwIAAA==",
+    "focus": "50% 55%",
+    "alt": "A big family group photo in a restaurant lobby"
+  },
   "family-hug": {
     "width": 851,
     "height": 1272,
@@ -66,6 +78,18 @@
     "blur": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAAAwBACdASoQABgAPu1iqU2ppaOiMAgBMB2JYwC7ACLVDiiJhcy5yaa1VAAA/pmIHe/3lL42pIJsJM/k4OTD+q33ol73XCUA8bVj7qlH2KxTAt0RymPlYxmgC3XN/6UCWXcDngDBc3CG3c/GNgSfB1xdy8AAAA==",
     "focus": "45% 40%",
     "alt": "Dad, Mom and family, dressed for an occasion"
+  },
+  "family-three-generations": {
+    "width": 1280,
+    "height": 960,
+    "widths": [
+      480,
+      960,
+      1280
+    ],
+    "blur": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAAAwAgCdASoQAAwAA4BaJbACdAYuHkcwU+zMgAD98HLoeP8lPZbl0exVD1BkCNaumS7KG9weAtEp3+uDninXs4XwZqvFlY5CJxnqpmgLSw0yXN83DY6wuRX6WkvqNgS2bKEltd2AAAA=",
+    "focus": "50% 50%",
+    "alt": "Three generations of the family together at an outdoor function"
   },
   "football-mural": {
     "width": 720,
@@ -102,6 +126,18 @@
     "focus": "20% 35%",
     "alt": "Dad with a group of friends"
   },
+  "function-group": {
+    "width": 1600,
+    "height": 1200,
+    "widths": [
+      480,
+      960,
+      1600
+    ],
+    "blur": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAADwAQCdASoQAAwAA4BaJbACdAYto9Hu1UgA/n1nesLSgGQd8WK2KmGGYoilv8ouoqyTsly+u8FEVTq+YRcOrpdBIi05AJO9Vdflf8xKAPxhMO8q31mLeQf4pznm6zxKB8l5LGo+NknN+6gS9fSeX3AAAAA=",
+    "focus": "40% 40%",
+    "alt": "Dad, Mom and family dressed up at a function"
+  },
   "garden-trio": {
     "width": 960,
     "height": 1280,
@@ -135,6 +171,18 @@
     "blur": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAAAwAgCdASoQAAkAA4BaJYwC7AYvXMLJz2UIgAD+lQ55ZbAFoLmKTGUJ3rY6SMLTFpVLPJQaY82LQZ+UY8nqJVHJ43wf7Q1rAd19is7ADBVkZTy1THAoAA==",
     "focus": "60% 40%",
     "alt": "Dad and Mom inside the London Eye, Westminster behind them"
+  },
+  "orange-safa": {
+    "width": 1500,
+    "height": 1500,
+    "widths": [
+      480,
+      960,
+      1500
+    ],
+    "blur": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAAAQAgCdASoQABAAA4BaJaACdAYwTWodruiYAP4Ako5ve1zEU2lx4W6n8G3dzmf90yFSJFx4edcO2Ya0NbG+0wnC3paAqmg0IHxWpd7fftmkUWfDh9irBXPTbUadPmOAFE3JLRrghE00BBBtv5KbgAAA",
+    "focus": "50% 30%",
+    "alt": "Dad in a yellow bandi and orange safa, seated between Mom and family"
   },
   "party-wigs": {
     "width": 1280,

@@ -28,6 +28,7 @@ export const contents = [
   { id: "profile", title: "Mukesh at fifty", deck: "Three things he always does.", photo: "with-mom-close" },
   { id: "portfolio", title: "The portfolio", deck: "A fund review, as he would want it.", photo: "formal-trio" },
   { id: "archives", title: "From the archives", deck: "Two prints from the family album.", photo: "archive-couple" },
+  { id: "family", title: "The family", deck: "Everyone he looks after, in two photographs.", photo: "family-three-generations" },
   { id: "style", title: "Style file", deck: "Turbans, bandhgalas and the yellow that started it.", photo: "home-festive" },
   { id: "travel", title: "Travel desk", deck: "From the London Eye to Pattaya.", photo: "london-eye" },
   { id: "snapped", title: "Seen and snapped", deck: "The society pages. Wigs included.", photo: "party-wigs" },
@@ -86,9 +87,18 @@ export const archives = {
   ],
 };
 
+export const family = {
+  standfirst: "Everyone he looks after, in two photographs.",
+  photos: [
+    { photo: "family-three-generations", caption: "Three generations, one frame." },
+    { photo: "family-full-house", caption: "The full house." },
+  ],
+};
+
 export const style = {
   hero: { photo: "yellow-kurta", credit: "Yellow bandhgala, red safa, white churidar." },
   looks: [
+    { photo: "orange-safa", credit: "Yellow again, this time with an orange safa." },
     { photo: "home-festive", credit: "Grey trousers, white shirt, festive company." },
     { photo: "family-hug", credit: "White shirt, everyone in their finest." },
     { photo: "formal-trio", credit: "Formal white, kept simple." },
@@ -112,6 +122,7 @@ export const snapped = {
     { photo: "friends-group", caption: "Outnumbered, and happy about it." },
     { photo: "garden-trio", caption: "A garden, a sunny day." },
     { photo: "selfie-four", caption: "Everyone in frame." },
+    { photo: "function-group", caption: "Dressed up, best seats in the house." },
   ],
 };
 

@@ -531,6 +531,24 @@ figcaption {
 .print--1 { rotate: -3deg; }
 .print--2 { rotate: 2.5deg; margin-top: 70px; }
 
+/* ---------- The family ---------- */
+.family {
+  max-width: 1320px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: clamp(28px, 4vw, 56px) clamp(18px, 2.6vw, 36px);
+}
+.family-head { grid-column: 1 / -1; display: grid; gap: 1rem; }
+.family-lead { grid-column: 1 / -1; }
+.family-lead .photo { aspect-ratio: 4 / 3; }
+.family-second { grid-column: 3 / 11; }
+.family-second .photo { aspect-ratio: 1; }
+.family figcaption { font-family: var(--serif); font-style: italic; font-size: 1.15rem; color: var(--ink); }
+@media (max-width: 760px) {
+  .family-second { grid-column: 1 / -1; }
+}
+
 /* ---------- Style file ---------- */
 .style {
   display: grid;
@@ -623,7 +641,7 @@ figcaption {
 }
 
 @media (min-width: 900px) and (pointer: fine) {
-  .table { display: block; position: relative; height: clamp(680px, 62vw, 900px); }
+  .table { display: block; position: relative; height: clamp(860px, 78vw, 1120px); }
   .snap { position: absolute; left: var(--left); top: var(--top); width: 31%; cursor: grab; }
   .snap:active { cursor: grabbing; }
 }
