@@ -40,7 +40,7 @@ export default function Cover({ onOpen }) {
     <section className="cover-stage" ref={root} aria-label="Cover">
       <div className="cover-hinge">
         <article className="cover">
-          <Photo name={cover.photo} priority className="cover-photo" sizes="(max-width: 760px) 100vw, 46vw" focus="50% 30%" />
+          <Photo name={cover.photo} priority className="cover-photo" sizes="(max-width: 760px) 100vw, 46vw" />
           <div className="cover-shade" />
           <p className="cover-kicker">{cover.kicker}</p>
           <h1 className="masthead" aria-label={issue.name}>

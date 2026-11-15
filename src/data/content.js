@@ -7,8 +7,12 @@ export const issue = {
   date: "15 November 2026",
   number: 50,
   from: "Ronak",
-  music: "/audio/raabta.mp3", // the song file in public/audio/
-  musicTitle: "Raabta",
+  // Songs play in this order, one after another, then start again.
+  // Each file goes in public/audio/. A song whose file is missing is skipped.
+  playlist: [
+    { src: "/audio/raabta.mp3", title: "Raabta" },
+    { src: "/audio/song-2.mp3", title: "Song 2" },
+  ],
 };
 
 export const cover = {

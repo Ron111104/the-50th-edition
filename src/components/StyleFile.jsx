@@ -11,7 +11,7 @@ export default function StyleFile() {
           <p className="standfirst">Fifty years of dressing for the occasion. A selection of looks from the family album.</p>
         </div>
         <figure className="style-hero">
-          <Photo name={style.hero.photo} sizes="(max-width: 760px) 100vw, 50vw" focus="52% 40%" />
+          <Photo name={style.hero.photo} sizes="(max-width: 760px) 100vw, 50vw" />
           <figcaption>
             <span className="look-num">Look 1</span>
             {style.hero.credit}

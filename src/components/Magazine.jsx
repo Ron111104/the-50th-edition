@@ -23,8 +23,10 @@ gsap.registerPlugin(ScrollTrigger);
 export default function Magazine() {
   const lenisRef = useRef(null);
   const audioRef = useRef(null);
-  const [hasMusic, setHasMusic] = useState(false);
+  const [tracks, setTracks] = useState([]); // songs whose files exist
+  const [track, setTrack] = useState(0);
   const [playing, setPlaying] = useState(false);
+  const hasMusic = tracks.length > 0;
 
   // Smooth scroll, driven by GSAP's ticker so ScrollTrigger stays in sync.
   useEffect(() => {
@@ -42,12 +44,27 @@ export default function Magazine() {
     };
   }, []);
 
-  // The music button only appears if the song file has been added.
+  // Keep only the songs whose files exist; the music button appears if at least one does.
   useEffect(() => {
-    fetch(issue.music, { method: "HEAD" })
-      .then((r) => setHasMusic(r.ok && (r.headers.get("content-type") || "").includes("audio")))
-      .catch(() => setHasMusic(false));
+    Promise.all(
+      issue.playlist.map((t) =>
+        fetch(t.src, { method: "HEAD" })
+          .then((r) => (r.ok && (r.headers.get("content-type") || "").includes("audio") ? t : null))
+          .catch(() => null)
+      )
+    ).then((found) => setTracks(found.filter(Boolean)));
   }, []);
+
+  // When a song ends, play the next one (and loop back to the first).
+  const nextTrack = () => {
+    const a = audioRef.current;
+    if (!a || !tracks.length) return;
+    const n = (track + 1) % tracks.length;
+    setTrack(n);
+    a.src = tracks[n].src;
+    a.volume = 0.7;
+    a.play().catch(() => {});
+  };
 
   const scrollTo = (target) => {
     const el = typeof target === "string" ? document.getElementById(target) : target;
@@ -97,8 +114,14 @@ export default function Magazine() {
       <BackCover onRestart={() => scrollTo(0)} />
       {hasMusic && (
         <>
-          <audio ref={audioRef} src={issue.music} loop preload="none" />
-          <MusicButton playing={playing} onToggle={toggleMusic} title={issue.musicTitle} />
+          <audio
+            ref={audioRef}
+            src={tracks[0].src}
+            loop={tracks.length === 1}
+            preload="none"
+            onEnded={nextTrack}
+          />
+          <MusicButton playing={playing} onToggle={toggleMusic} title={tracks[track].title} />
         </>
       )}
     </main>
