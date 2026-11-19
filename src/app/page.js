@@ -1,5 +1,5 @@
-import Magazine from "@/components/Magazine";
+import Book from "@/components/Book";
 
 export default function Page() {
-  return <Magazine />;
+  return <Book />;
 }

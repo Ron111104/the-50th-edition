@@ -1,7 +1,5 @@
-import "@fontsource-variable/bodoni-moda/opsz.css";
-import "@fontsource-variable/bodoni-moda/opsz-italic.css";
-import "@fontsource/familjen-grotesk/400.css";
-import "@fontsource/familjen-grotesk/600.css";
+import "@fontsource-variable/source-serif-4/opsz.css";
+import "@fontsource-variable/source-serif-4/opsz-italic.css";
 import "./globals.css";
 
 export const metadata = {

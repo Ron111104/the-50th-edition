@@ -17,39 +17,29 @@ export const issue = {
 
 export const cover = {
   photo: "yellow-kurta",
+  cutout: "yellow-kurta-people", // the people cut out of the cover photo, so the title sits behind them
   kicker: "The 50th Edition",
+  // Each line opens its page when tapped.
   lines: [
-    { title: "Fifty years of looking after everyone", id: "profile" },
-    { title: "Inside his portfolio: the fund that never stops growing", id: "portfolio" },
-    { title: "Style file: the turban, the bandhgala, the sunglasses", id: "style" },
+    { title: "Fifty years of looking after everyone", page: 3 },
+    { title: "Inside his portfolio: the fund that never stops growing", page: 6 },
+    { title: "Style file: the turban, the bandhgala, the sunglasses", page: 10 },
   ],
-  price: "Priceless",
 };
 
-// Order here = order in the magazine. Page numbers are generated
-// (cover is page 1, contents page 2, so the first entry is page 3).
+// The magazine's pages, in order. "page" is the page number shown in the folio and contents
+// (cover is page 1, contents page 2, back cover page 20).
 export const contents = [
-  { id: "profile", title: "Mukesh at fifty", deck: "Three things he always does.", photo: "with-mom-close" },
-  { id: "portfolio", title: "The portfolio", deck: "A fund review, as he would want it.", photo: "formal-trio" },
-  { id: "archives", title: "From the archives", deck: "Two prints from the family album.", photo: "archive-couple" },
-  { id: "family", title: "The family", deck: "Everyone he looks after, in three photographs.", photo: "family-three-generations" },
-  { id: "style", title: "Style file", deck: "Turbans, bandhgalas and the yellow that started it.", photo: "home-festive" },
-  { id: "travel", title: "Travel desk", deck: "From the London Eye to Pattaya.", photo: "london-eye" },
-  { id: "snapped", title: "Seen and snapped", deck: "The society pages. Wigs included.", photo: "party-wigs" },
-  { id: "wife", title: "To my wonderful husband", deck: "A letter from Mom, in her own words.", photo: "black-outfits" },
+  { page: 3, title: "Mukesh at fifty", deck: "Born 15 November 1976." },
+  { page: 4, title: "Three things he always does", deck: "Caring, food and mutual funds." },
+  { page: 5, title: "From the archives", deck: "Two prints from the family album." },
+  { page: 6, title: "The portfolio", deck: "A fund review, as he would want it." },
+  { page: 8, title: "The family", deck: "Everyone he looks after, in three photographs." },
+  { page: 10, title: "Style file", deck: "Turbans, bandhgalas and the yellow that started it." },
+  { page: 12, title: "Travel desk", deck: "From the London Eye to Pattaya." },
+  { page: 14, title: "Seen and snapped", deck: "The society pages. Wigs included." },
+  { page: 16, title: "To my wonderful husband", deck: "A letter from Mom, in her own words." },
 ];
-
-export const letter = {
-  photo: "garden-trio",
-  caption: "Family, in the garden.",
-  // PLACEHOLDER: replace these paragraphs with Ronak's 150-word letter.
-  // Keep each paragraph as a separate string.
-  paragraphs: [
-    "Dad, this is a placeholder for my letter to you. The real one is about a hundred and fifty words long, and it will go right here, in the most important column of this issue.",
-    "Until then, know that every page after this one was made for you, from photos you probably forgot were taken.",
-  ],
-  signoff: "Ronak",
-};
 
 export const profile = {
   photo: "with-mom-close",
@@ -176,4 +166,3 @@ export const backCover = {
   closing: "Issue 50 ends here. Issue 51 starts tomorrow.",
 };
 
-export const pageOf = (id) => String(contents.findIndex((c) => c.id === id) + 3).padStart(2, "0");
